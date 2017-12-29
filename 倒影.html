@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>box-reflect_CSS参考手册_web前端开发参考手册系列</title>
+    <meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+    <style>
+        html,body{
+            margin:50px 0;
+        }
+        .reflect{
+            width:950px;
+            margin:0 auto;
+            -webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.3));
+            font:bold 100px/1.231 georgia,sans-serif;
+            text-transform:uppercase;
+        }
+        .eg{
+            width:950px;
+            margin:100px auto;
+            -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,0.4));
+
+        }
+        .jian{
+            width: 400px;
+            height: 100px;
+            background: -webkit-linear-gradient( left top ,grey ,yellowgreen );
+        }
+    </style>
+</head>
+<body>
+<div class="reflect">你看到倒影了么？</div>
+<br/><br/>
+<div class="eg">举个例子</div>
+<div class="jian"></div>
+</body>
+</html>
